@@ -1,0 +1,30 @@
+Java
+- object oriented
+- write once run anywhere -- WIN --> MAC
+- lots of library available -- inside library lots of predefined class available Eg. Scanner[uses to read input from the user]
+
+Eclipse:
+- IDE (Integrated developement environment) - type, run and execute or code. Other IDE- NodeJS
+
+JAVA architecture
+JDK 17: java developement kit
+	javac(compiler), jheap -> memory allocation
+	jconsole, jshell 		-> commnad prompt where u can execute code w/o UI
+	
+JVM : java virtual machine 
+		Load the code, 	verify the code , allocate memory and execute the code -> provides runtime environment
+		
+	behind the scenes : Sorce Code[.jave file]--> byte code(o's and 1's)[.class file] --> machine language --> prvides runtime environment	
+						                     ----javac(JDK compiler)----			 --JVM(interpretor)--	        ---JRE-----
+JRE (JVM): java runtime environment	
+
+Language fundamentals :
+-------------------------	
+1. Identifier/variable -- a-z,0-9, _, A-Z. Eg.num1 = 2 (its a container where value stored) - Case sensitive - NO special charac 
+2. Reserved words/keywords -- special words having predefined meaning(53 reserved keywords in java and cannot use as variable name) Eg. 
+3. Data Types -- primitive (single value- char, int float) non primitive(complex value- String,Array )Eg. int num1 =2 (based on data type memory allocation will happen)(what type of value container is holding
+4. Operators -- Arithmetic(+,-,%,/,*) Assignment(+=, -=,*=,/=) Comparison(<,>,<=,>=,==) , logical(&&,||,|), bitwise(|,&,^,XDR) Unary(postfix a++, prefix ++a)
+, ternary(?,:) eg. boolean var = a > b ? truee : false, int result= a > b ? "a is great" : "b is great"  
+5. Main method --  Java execution starts from here
+6. Command lines // , /* */
+7. Java coding standards
